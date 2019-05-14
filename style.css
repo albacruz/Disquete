@@ -1,0 +1,103 @@
+body{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.disquete{
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  background:linear-gradient(135deg, #000000 0%,#45484d 100%);
+  border-radius: 10px 30px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-clip-path: polygon(88% 0, 100% 13%, 100% 100%, 0 100%, 0 0);
+clip-path: polygon(88% 0, 100% 13%, 100% 100%, 0 100%, 0 0);
+ 
+}
+
+
+.fondomarca{
+  width: 250px;
+  height: 120px;
+  background-color: #52514f;
+  position: relative;
+  left: 49px;
+  bottom: 28px;
+  align-self: flex-start;
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid black;
+  border-top: 2px solid grey;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
+
+.marca{
+  width: 200px;
+  height: 100%;
+  border-radius: 0px 0px 10px 10px;
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(135deg, #f6f8f9 0%,#e5ebee 11%,#d7dee3 27%,#d7dee3 27%,#e5ebee 38%,#e5ebee 50%,#e5ebee 62%,#e5ebee 75%,#e5ebee 82%,#f5f7f9 100%);
+  
+}
+
+.rectangulo{
+  width: 50px;
+  height: 90px;
+  background-color: black;
+  position: relative;
+  right: 25px;
+  top: 5px;
+}
+
+.texto{
+  position: relative;
+  left: 5px;
+  font-size: 20px;
+  bottom: 20px;
+}
+.texto2{
+  position: relative;
+  align-self: flex-end;
+  right: 70px;
+  font-size: 15px;
+}
+
+.fondoetiqueta{
+  position: relative;
+  top: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 220px;
+  background-color: #52514f;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid black;
+  border-bottom: 2px solid grey;
+  
+}
+
+.etiqueta{
+  width: 280px;
+  height: 125px;
+  background-color: white;
+  border-radius: 10px;
+  border-top: 10px solid white;
+  border-bottom: 70px solid #e94d05;
+  background-image: 
+    linear-gradient(#e94d05 2px, transparent 1px);
+  background-size: 100% 1.7em;
+  
+}
